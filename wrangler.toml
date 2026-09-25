@@ -1,0 +1,13 @@
+name = "clube-up-mobility"
+main = "src/index.js"
+compatibility_date = "2026-09-24"
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "clube-up-mobility"
+database_id = "COLOQUE_O_DATABASE_ID_AQUI"
+migrations_dir = "migrations"
